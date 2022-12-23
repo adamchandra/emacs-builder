@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+export CC=/usr/bin/gcc-11 CXX=/usr/bin/gcc-11
+
 ./configure\
  --with-cairo\
  --with-file-notification=inotify\
